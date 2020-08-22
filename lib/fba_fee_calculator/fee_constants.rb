@@ -1,12 +1,14 @@
+
 module FbaFeeCalculator
   module FeeConstants
 
     PICK_PACK = {
       "SML_STND" => 1.06,
       "LRG_STND" => 1.06,
-      "SML_OVER" => 4.09,
-      "MED_OVER" => 5.20,
-      "LRG_OVER" => 8.40,
+
+      "SML_OVER" => 8.13,
+      "MED_OVER" => 9.44,
+      "LRG_OVER" => 73.1,
       "SPL_OVER" => 10.53
     }
 
